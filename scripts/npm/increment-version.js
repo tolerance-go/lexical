@@ -16,15 +16,6 @@ const argv = require('minimist')(process.argv.slice(2));
 const increment = argv.i || process.env.INCREMENT;
 const channel = argv.channel || process.env.CHANNEL;
 
-// 如果通过命令行参数传递，则设置环境变量
-// 后续的 postversion-local.js 需要用到
-if (argv.i) {
-  process.env.INCREMENT = increment;
-}
-if (argv.channel) {
-  process.env.CHANNEL = channel;
-}
-
 const validChannels = new Set(['next', 'latest', 'nightly', 'dev']);
 if (!validChannels.has(channel)) {
   console.error(`Invalid value for channel: ${channel}`);
