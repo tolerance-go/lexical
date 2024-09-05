@@ -104,7 +104,7 @@
     "update-flowconfig": "node ./scripts/update-flowconfig",
     "create-www-stubs": "node ./scripts/create-www-stubs",
     "update-packages": "npm run update-version && npm run update-tsconfig && npm run update-flowconfig && npm run create-docs && npm run create-www-stubs",
-    "postversion": "node ./scripts/npm/postversion",
+    "postversion": "node ./scripts/npm/postversion-local.js",
     "publish-extension": "npm run zip -w @lexical/devtools && npm run publish -w @lexical/devtools",
     "release": "npm run prepare-release && node ./scripts/npm/release.js",
     "size": "npm run build-prod && size-limit"
