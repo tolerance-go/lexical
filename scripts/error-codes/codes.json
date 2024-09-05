@@ -198,5 +198,7 @@
   "196": "Unable to find an active editor. This method can only be used synchronously during the callback of editor.update() or editor.read().%s",
   "197": "$cloneWithProperties: %s.clone(node) (with type '%s') overrided afterCloneFrom but did not call super.afterCloneFrom(prevNode)",
   "198": "Attempted to remove event handlers from a node that does not belong to this build of Lexical",
-  "199": "Indent value must be non-negative."
+  "199": "Indent value must be non-negative.",
+  "200": "node is not a OverflowNode",
+  "201": "tableElement already has an attached TableObserver"
 }

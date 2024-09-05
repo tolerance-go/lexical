@@ -21,6 +21,7 @@
         "./packages\\lexical-devtools-core\\src\\index.ts"
       ],
       "@lexical/dragon": ["./packages\\lexical-dragon\\src\\index.ts"],
+      "@lexical/editor": ["./packages\\lexical-editor\\src\\index.ts"],
       "@lexical/eslint-plugin": [
         "./packages\\lexical-eslint-plugin\\src\\index.ts"
       ],
@@ -192,6 +193,7 @@
       "@lexical/code/src": ["./packages\\lexical-code\\src"],
       "@lexical/devtools-core/src": ["./packages\\lexical-devtools-core\\src"],
       "@lexical/dragon/src": ["./packages\\lexical-dragon\\src"],
+      "@lexical/editor/src": ["./packages\\lexical-editor\\src"],
       "@lexical/eslint-plugin/src": ["./packages\\lexical-eslint-plugin\\src"],
       "@lexical/file/src": ["./packages\\lexical-file\\src"],
       "@lexical/hashtag/src": ["./packages\\lexical-hashtag\\src"],

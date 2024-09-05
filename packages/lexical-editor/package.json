@@ -1,0 +1,30 @@
+{
+  "name": "@lexical/editor",
+  "version": "0.17.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "sideEffects": false,
+  "module": "index.mjs",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./index.d.ts",
+        "development": "./index.dev.mjs",
+        "production": "./index.prod.mjs",
+        "node": "./index.node.mjs",
+        "default": "./index.mjs"
+      },
+      "require": {
+        "types": "./index.d.ts",
+        "development": "./index.dev.js",
+        "production": "./index.prod.js",
+        "default": "./index.js"
+      }
+    }
+  }
+}
