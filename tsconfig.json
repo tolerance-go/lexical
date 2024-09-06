@@ -225,6 +225,7 @@
     "./libdefs/*.js",
     "**/dist/**",
     "**/npm/**",
+    "**/build/**",
     "**/node_modules/**",
     "./packages/lexical-devtools/**"
   ],
