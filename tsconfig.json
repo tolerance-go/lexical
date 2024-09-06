@@ -21,7 +21,7 @@
         "./packages\\lexical-devtools-core\\src\\index.ts"
       ],
       "@lexical/dragon": ["./packages\\lexical-dragon\\src\\index.ts"],
-      "@lexical/editor": ["./packages\\lexical-editor\\src\\index.ts"],
+      "@lexical/editor": ["./packages\\lexical-editor\\src\\index.tsx"],
       "@lexical/eslint-plugin": [
         "./packages\\lexical-eslint-plugin\\src\\index.ts"
       ],

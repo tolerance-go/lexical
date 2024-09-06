@@ -197,6 +197,8 @@ module.exports = {
 
     'keyword-spacing': [ERROR, {after: true, before: true}],
 
+    'lexical/no-optional-chaining': OFF,
+
     // Enforced by Prettier
     // TODO: Prettier doesn't handle long strings or long comments. Not a big
     // deal. But I turned it off because loading the plugin causes some obscure

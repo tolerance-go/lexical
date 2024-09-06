@@ -6,7 +6,7 @@
  *
  */
 
-import type {SettingName} from '../appSettings';
+import type {SettingName} from '../../../lexical-playground/src/appSettings';
 
 import * as React from 'react';
 import {
@@ -18,7 +18,10 @@ import {
   useState,
 } from 'react';
 
-import {DEFAULT_SETTINGS, INITIAL_SETTINGS} from '../appSettings';
+import {
+  DEFAULT_SETTINGS,
+  INITIAL_SETTINGS,
+} from '../../../lexical-playground/src/appSettings';
 
 type SettingsContextShape = {
   setOption: (name: SettingName, value: boolean) => void;

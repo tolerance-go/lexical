@@ -9,7 +9,10 @@
 import {CAN_USE_BEFORE_INPUT} from '@lexical/utils';
 import {useEffect, useMemo, useState} from 'react';
 
-import {INITIAL_SETTINGS, isDevPlayground} from './appSettings';
+import {
+  INITIAL_SETTINGS,
+  isDevPlayground,
+} from '../../lexical-playground/src/appSettings';
 import {useSettings} from './context/SettingsContext';
 import Switch from './ui/Switch';
 

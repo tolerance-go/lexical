@@ -34,7 +34,7 @@ import {
 } from 'lexical';
 import {useCallback, useEffect, useState} from 'react';
 
-import {INITIAL_SETTINGS} from '../../appSettings';
+import {INITIAL_SETTINGS} from '../../../../lexical-playground/src/appSettings';
 import useFlashMessage from '../../hooks/useFlashMessage';
 import useModal from '../../hooks/useModal';
 import Button from '../../ui/Button';
